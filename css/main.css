@@ -3,7 +3,7 @@
 			height:1080px;
 			max-height:100%;
 			background-color: white;
-			animation-duration: 1s;
+			animation-duration: 4s;
 			animation-name: BGcolorslide;
 			animation-iteration-count: infinite;}
 
@@ -16,7 +16,7 @@
 		
 						
 		#fill_log {
-		  animation-duration: 1s;
+		  animation-duration: 4s;
 		  animation-name: colorslide;
 		  animation-iteration-count: infinite;
 		}
