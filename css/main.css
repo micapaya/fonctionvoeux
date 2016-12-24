@@ -11,19 +11,17 @@
 		
 svg {
 		max-width:100%;
-		animation-duration: 2.4s;
+		animation-duration: 3s;
 		animation-name: BGcolorslide;
 		animation-iteration-count: infinite;
 }
 		
-			#calque_1:active {
-						visibility: hidden;
-						}
+			
 			
 					
 				.fill_log {
 					fill: #F7931E;
-				  animation-duration: 2.4s;
+				  animation-duration: 3s;
 				  animation-name: colorslide;
 				  animation-iteration-count: infinite;
 				}
@@ -32,19 +30,36 @@ svg {
 		
 				
 /*animation*/
+
+							/*color check
+							
+							yellow:	#D9E021
+							blue:		#00ADA5
+							orange:	#F7931E
+							pink/purple:	#CA16FF
+							
+							*/
 				
 				@keyframes colorslide {
-					 0%{fill: #D9E021;}
-					 25%{fill: #00ADA5;}
-					 50%{fill: #F7931E;}
-					 75%{fill: #CA16FF;}
-					 100%{fill: #D9E021;}
+					 0%{fill: #F7931E;}
+					 22%{fill: #F7931E;}
+					 25%{fill: #CA16FF;}
+					 47%{fill: #CA16FF;}
+					 50%{fill: #D9E021;}
+					 72%{fill: #D9E021;}
+					 75%{fill: #00ADA5;}
+					 97%{fill: #00ADA5;}
+					 100%{fill: #F7931E;}
 				}
 		
 				@keyframes BGcolorslide {
 					 0%{background-color: #CA16FF;}
+					 22%{background-color: #CA16FF;}
 					 25%{background-color: #D9E021;}
+					 47%{background-color: #D9E021;}
 					 50%{background-color: #00ADA5;}
+					 72%{background-color: #00ADA5;}
 					 75%{background-color: #F7931E;}
-					 99.99%{background-color: #CA16FF;}
+					 97%{background-color: #F7931E;}
+					 100%{background-color: #CA16FF;}
 				}
