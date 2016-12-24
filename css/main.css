@@ -1,5 +1,7 @@
 
 		
+/*placements logo pop et animation*/
+
 
 		.front_page_logo {max-width:100%;
 				max-height:100%;
@@ -14,7 +16,10 @@ svg {
 		animation-iteration-count: infinite;
 }
 		
-		
+			#calque_1:active {
+						visibility: hidden;
+						}
+			
 					
 				.fill_log {
 					fill: #F7931E;
