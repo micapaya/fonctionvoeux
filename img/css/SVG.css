@@ -1,0 +1,61 @@
+
+		
+/*placements logo pop et animation*/
+
+		
+				.corps {
+					fill: #D9E021;
+					animation-duration: 3s;
+					animation-name: corpscolorslide;
+					animation-iteration-count: infinite;
+				}
+		
+			
+			
+					
+				.fill_log {
+					
+					fill: #F7931E;
+					animation-duration: 3s;
+					animation-name: lettercolorslide;
+					animation-iteration-count: infinite;
+				}
+				
+				
+		
+				
+/*animation*/
+
+							/*color check
+							
+							yellow:	#D9E021
+							blue:		#00ADA5
+							orange:	#F7931E
+							pink/purple:	#CA16FF
+							
+							*/
+				
+				@keyframes lettercolorslide {
+					 0%{fill: #F7931E;}
+					 22%{fill: #F7931E;}
+					 25%{fill: #CA16FF;}
+					 47%{fill: #CA16FF;}
+					 50%{fill: #D9E021;}
+					 72%{fill: #D9E021;}
+					 75%{fill: #00ADA5;}
+					 97%{fill: #00ADA5;}
+					 100%{fill: #F7931E;}
+				}
+		
+				@keyframes corpscolorslide {
+					 0%{fill: #CA16FF;}
+					 22%{fill: #CA16FF;}
+					 25%{fill: #D9E021;}
+					 47%{fill: #D9E021;}
+					 50%{fill: #00ADA5;}
+					 72%{fill: #00ADA5;}
+					 75%{fill: #F7931E;}
+					 97%{fill: #F7931E;}
+					 100%{fill: #CA16FF;}
+				}
+				
