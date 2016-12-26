@@ -16,15 +16,16 @@
 
     
 <!-- intérieur deuxième lettre "o" corps logo -->
-<g transform="translate(450,200)">
-	<g transform="scale(1.5,1.5)">
+<g>
+	<g transform="translate(450,200)">
+		<g transform="scale(1.5,1.5)">
   <path d="M441.6 344.4c-5.5 0-7.7 6.9-7.7 13.4 0 6.6 2.3 13.4 7.7 13.4s7.7-6.9 7.7-13.4C449.3 351.3 447 344.4 441.6 344.4z" class="corps">
   		  <animate attributeType="transform" attributeName="opacity" 
 				      from="0"
 				      to="1"
-				      dur="2.9s"
+				      dur="3.8s"
 				      values="0;0;0;1"
-				      keyTimes="0;0;0.99;1"
+				      keyTimes="0;0;0.85;1"
 				      repeatCount="1" />
 	</path> 
 
@@ -35,9 +36,9 @@
 		  <animate attributeType="transform" attributeName="opacity" 
 				      from="0"
 				      to="1"
-				      dur="2.9s"
+				      dur="3.8s"
 				      values="0;0;0;1"
-				      keyTimes="0;0;0.99;1"
+				      keyTimes="0;0;0.85;1"
 				      repeatCount="1" />
 	</path> 
   
@@ -47,9 +48,9 @@
   <animate attributeType="transform" attributeName="opacity" 
             from="0"
             to="1"
-            dur="2.9s"
+            dur="3.8s"
             values="0;0;0;1"
-            keyTimes="0;0;0.99;1"
+            keyTimes="0;0;0.85;1"
             repeatCount="1" />
            
   </path>
@@ -60,10 +61,11 @@
 			<animateTransform attributeName="transform"
 		  				attributeType="XML"
 		  				type="rotate"
-		  				from="0 300 300"
-		  				to="360 100 200"
-		  				dur="2s"
+		  				from="0 50 300"
+		  				to="360 200 200"
+		  				dur="3s"
 		  				reapeatCount="1"/>
+		  				
 	
 		</path>
 
@@ -73,9 +75,9 @@
 	  		<animateTransform attributeName="transform"
 		  				attributeType="XML"
 		  				type="rotate"
-		  				from="0 300 300"
-		  				to="-360 100 200"
-		  				dur="2s"
+		  				from="0 0 250"
+		  				to="360 100 200"
+		  				dur="3s"
 		  				reapeatCount="indefinite"/>
 	
 	  </polygon>
@@ -86,9 +88,9 @@
 				<animateTransform attributeName="transform"
 		  				attributeType="XML"
 		  				type="rotate"
-		  				from="0 280 100"
-		  				to="360 350 200"
-		  				dur="2.4s"
+		  				from="0 0 100"
+		  				to="-360 350 200"
+		  				dur="3s"
 		  				reapeatCount="indefinite"/>
 	</path>  
 
@@ -98,9 +100,9 @@
 				<animateTransform attributeName="transform"
 		  				attributeType="XML"
 		  				type="rotate"
-		  				from="0 280 100"
-		  				to="-360 350 200"
-		  				dur="2.4s"
+		  				from="0 100 100"
+		  				to="-360 370 200"
+		  				dur="3s"
 		  				reapeatCount="1"
 		  				/>
 		  	</path>
@@ -111,9 +113,9 @@
   				<animateTransform attributeName="transform"
 		  				attributeType="XML"
 		  				type="rotate"
-		  				from="0 250 100"
-		  				to="-360 490 100"
-		  				dur="2.8s"
+		  				from="0 200 100"
+		  				to="360 490 100"
+		  				dur="3s"
 		  				reapeatCount="1"/>
   </path>
 
@@ -125,8 +127,9 @@
 		  				type="rotate"
 		  				from="0 250 100"
 		  				to="360 490 100"
-		  				dur="2.8s"
+		  				dur="3s"
 		  				reapeatCount="1"/>
+		  		
 	</polygon>
 		  
 <!-- letter S -->
@@ -136,9 +139,9 @@
 		  		<animateTransform attributeName="transform"
 		  				attributeType="XML"
 		  				type="rotate"
-		  				from="0 400 310"
-		  				to="360 350 320"
-		  				dur="2.1s"
+		  				from="0 100 310"
+		  				to="720 350 320"
+		  				dur="2s"
 		  				reapeatCount="indefinite"/>
 	  	</path>
 	  	
@@ -148,8 +151,8 @@
   				<animateTransform attributeName="transform"
 		  				attributeType="XML"
 		  				type="rotate"
-		  				from="0 400 400"
-		  				to="-360 350 320"
+		  				from="0 400 900"
+		  				to="-720 350 320"
 		  				dur="2.2s"
 		  				reapeatCount="indefinite"/>
   
@@ -161,9 +164,9 @@
 		  		<animateTransform attributeName="transform"
 		  				attributeType="XML"
 		  				type="rotate"
-		  				from="0 500 360"
-		  				to="-360 350 320"
-		  				dur="2.3s"
+		  				from="0 800 360"
+		  				to="-720 350 320"
+		  				dur="2.4s"
 		  				reapeatCount="indefinite"/>
 	  	</polygon>
 
@@ -173,9 +176,9 @@
   		  		<animateTransform attributeName="transform"
 		  				attributeType="XML"
 		  				type="rotate"
-		  				from="0 500 360"
-		  				to="-360 380 310"
-		  				dur="2.4s"
+		  				from="0 900 360"
+		  				to="-720 380 310"
+		  				dur="2.6s"
 		  				reapeatCount="indefinite"/>  		
   </path>
   
@@ -186,9 +189,9 @@
   		  		<animateTransform attributeName="transform"
 		  				attributeType="XML"
 		  				type="rotate"
-		  				from="0 500 360"
-		  				to="360 370 340"
-		  				dur="2.5s"
+		  				from="0 1000 360"
+		  				to="720 370 340"
+		  				dur="2.8s"
 		  				reapeatCount="indefinite"/>  		
   		</path>
 		  	
@@ -198,12 +201,21 @@
   				<animateTransform attributeName="transform"
 		  				attributeType="XML"
 		  				type="rotate"
-		  				from="0 500 360"
-		  				to="360 370 320"
-		  				dur="2.6s"
+		  				from="0 1200 360"
+		  				to="720 300 320"
+		  				dur="3s"
 		  				reapeatCount="indefinite"/>
   		</polygon>
-  	</g>
+	  	</g>
+	</g>
+	<animateTransform attributeName="transform"
+		  				attributeType="XML"
+		  				type="rotate"
+		  				from="0 900 540"
+		  				to="1440 900 540"
+		  				dur="3s"
+		  				reapeatCount="indefinite"/>
+  	
 </g>
 		</svg>
 
