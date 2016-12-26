@@ -11,29 +11,13 @@
 		
 <body>
 	
-	<div class="BG">
-		<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480"> 
+	
+		<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="1920" height="1080" viewBox="0 0 1920 1080" enable-background="new 0 0 1920 1080" xml:space="preserve">
 
-
-	<!--	<defs>
-    <filter id="filtre" filterUnits="userSpaceOnUse" x="0" y="0" width="640" height="480">
-      <feGaussianBlur in="SourceAlpha" stdDeviation="1" result="blur"/>
-      <feOffset in="blur" dx="1" dy="1" result="offsetBlur"/>
-      <feComposite in="blur" in2="SourceAlpha" operator="in" result="specOut"/>
-      <feComposite in="SourceGraphic" in2="specOut" operator="arithmetic" k1="0" k2="1" k3="1" k4="0" result="litPaint"/>
-      <feMerge>
-        <feMergeNode in="offsetBlur"/>
-        <feMergeNode in="litPaint"/>
-      </feMerge>
-    </filter>
-  </defs>
-		 -->
-<!--		 
-<g style="filter:url(#filtre);" >
-    -->
     
 <!-- intérieur deuxième lettre "o" corps logo -->
-
+<g transform="translate(450,200)">
+	<g transform="scale(1.5,1.5)">
   <path d="M441.6 344.4c-5.5 0-7.7 6.9-7.7 13.4 0 6.6 2.3 13.4 7.7 13.4s7.7-6.9 7.7-13.4C449.3 351.3 447 344.4 441.6 344.4z" class="corps">
   		  <animate attributeType="transform" attributeName="opacity" 
 				      from="0"
@@ -69,12 +53,6 @@
             repeatCount="1" />
            
   </path>
-
-</g>
-
-<!-- effect 
-<g style="filter:url(#filtre);" >
--->
 
 <!-- barre courbée du p gauche -->
 	
@@ -225,8 +203,9 @@
 		  				dur="2.6s"
 		  				reapeatCount="indefinite"/>
   		</polygon>
+  	</g>
 </g>
 		</svg>
-	</div>
+
 </body>
 </html>
