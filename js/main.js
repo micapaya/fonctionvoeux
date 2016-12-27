@@ -1,12 +1,12 @@
 												//fonction défilement
 
-var scrl = " POP School vous Souhaite  ";
+var scrl = " POP School // vous souhaite // une bonne année 2017 //";
 
 function scrlsts() 
 {
 	 	scrl = scrl.substring(1, scrl.length) + scrl.substring(0, 1);
  		document.title = scrl;
- 		setTimeout("scrlsts()", 300);
+ 		setTimeout("scrlsts()", 200);
 }
 
 
