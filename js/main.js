@@ -1,13 +1,13 @@
 												//fonction défilement
 
-var scrl = " POP School // vous souhaite // une bonne année 2017 //";
+var scrl = " // POP School vous souhaite...une bonne année 2017 //";
 
 function scrlsts() 
 {
 	 	scrl = scrl.substring(1, scrl.length) + scrl.substring(0, 1);
  		document.title = scrl;
- 		setTimeout("scrlsts()", 200);
-}
+ 		setTimeout("scrlsts()", 100);
+};
 
 
 												//fonction disparition first page
@@ -23,8 +23,9 @@ function toggle(anId)
 	node = document.getElementById('Calque_2');
 															// Contenu invisible, le montrer
 		node.style.visibility = "visible";
-		node.style.display = "block"
-		node.style.height = "0";
-}
+		node.style.display = "block";
+};
+
+
 
 
