@@ -12,6 +12,8 @@ function scrlsts()
 
 												//fonction disparition first page
 
+
+
 function toggle(anId)
 {
 	node = document.getElementById('Calque_1');
