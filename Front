@@ -1,3 +1,15 @@
+<!--
+			La page se présente sous cette structure 
+			
+					*page 1 svg animé  
+			
+					*page 2 animation paragraphe avec JS
+			
+					*page 3 intégration masque svg et enchaînement page 4
+			
+					*page 4 vidéo et crédit et hide			
+-->
+
 <!DOCTYPE xhtml>
 <html lang="fr">
 	<head>
