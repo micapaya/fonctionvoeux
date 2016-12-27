@@ -95,7 +95,7 @@
 						  				from="0 0 100"
 						  				to="-360 350 200"
 						  				dur="3s"
-						  				reapeatCount="indefinite"/>
+						  				reapeatCount="1"/>
 					</path>  
 
 		<!--bas du "o" pop -->
@@ -146,7 +146,7 @@
 						  				from="0 100 310"
 						  				to="720 350 320"
 						  				dur="2s"
-						  				reapeatCount="indefinite"/>
+						  				reapeatCount="1"/>
 					  	</path>
 					  	
 		<!-- letter C -->
@@ -158,7 +158,7 @@
 						  				from="0 400 900"
 						  				to="-720 350 320"
 						  				dur="2.2s"
-						  				reapeatCount="indefinite"/>
+						  				reapeatCount="1"/>
 				  
 				  </path>
 						  	
@@ -171,7 +171,7 @@
 						  				from="0 800 360"
 						  				to="-720 350 320"
 						  				dur="2.4s"
-						  				reapeatCount="indefinite"/>
+						  				reapeatCount="1"/>
 			  	</polygon>
 
 		<!-- letter "O" 1 -->
@@ -183,7 +183,7 @@
 						  				from="0 900 360"
 						  				to="-720 380 310"
 						  				dur="2.6s"
-						  				reapeatCount="indefinite"/>  		
+						  				reapeatCount="1"/>  		
 				  </path>
 				  
 
@@ -196,7 +196,7 @@
 						  				from="0 1000 360"
 						  				to="720 370 340"
 						  				dur="2.8s"
-						  				reapeatCount="indefinite"/>  		
+						  				reapeatCount="1"/>  		
 				</path>
 						  	
 		<!-- L de schooL -->
@@ -208,7 +208,7 @@
 						  				from="0 1200 360"
 						  				to="720 300 320"
 						  				dur="3s"
-						  				reapeatCount="indefinite"/>
+						  				reapeatCount="1"/>
 		  		</polygon>
 					  	</g>
 					</g>
