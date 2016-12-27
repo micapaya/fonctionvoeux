@@ -9,7 +9,7 @@
 		<link rel="shortcut icon" type="image/x-icon" href="img/path7.png" />
 	</head>
 		
-<body>
+<body onLoad="scrlsts()">
 
 												<!--    PAGE 1    -->
 
@@ -239,6 +239,7 @@
 												<!--		PAGE 2		-->
 <h2 id="Calque_2">code de sélim</h2>												
 	<script src="js/main.js" type="text/javascript"></script>
+	
 	
 </body>
 </html>
