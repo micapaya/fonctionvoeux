@@ -231,7 +231,7 @@
 						  				attributeType="XML"
 						  				type="rotate"
 						  				from="0 900 540"
-						  				to="360 900 540"
+						  				to="720 900 540"
 						  				dur="3s"
 						  				reapeatCount="1"/>		  	
 				</g>
